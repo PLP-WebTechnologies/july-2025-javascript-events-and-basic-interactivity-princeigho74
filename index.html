@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Interactive Web Page</h1>
+
+  <!-- Interactive Section 1: Counter -->
+  <section>
+    <h2>Click Counter</h2>
+    <button id="countBtn">Click Me</button>
+    <p>You clicked <span id="count">0</span> times.</p>
+  </section>
+
+  <!-- Interactive Section 2: Toggle Password -->
+  <section>
+    <h2>Password Toggle</h2>
+    <input type="password" id="passwordField" placeholder="Enter password">
+    <button id="toggleBtn">Show/Hide</button>
+  </section>
+
+  <!-- Form Section -->
+  <section>
+    <h2>Registration Form</h2>
+    <form id="myForm">
+      <label>Username:</label>
+      <input type="text" id="username"><br><br>
+
+      <label>Email:</label>
+      <input type="text" id="email"><br><br>
+
+      <label>Password:</label>
+      <input type="password" id="password"><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+    <p id="errorMsg" class="error"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
